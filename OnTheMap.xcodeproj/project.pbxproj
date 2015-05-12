@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E2383611AC34CA700FB3994 /* InformationPostingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2383601AC34CA700FB3994 /* InformationPostingViewController.swift */; };
+		4E23836A1AC47F3600FB3994 /* OnTheMapUdacityConvenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2383691AC47F3600FB3994 /* OnTheMapUdacityConvenience.swift */; };
+		4E23836C1AC47F7300FB3994 /* OnTheMapClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E23836B1AC47F7300FB3994 /* OnTheMapClient.swift */; };
+		4E2383721AC47FCC00FB3994 /* BorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2383711AC47FCC00FB3994 /* BorderedButton.swift */; };
+		4E2383741AC47FDD00FB3994 /* BorderedTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2383731AC47FDD00FB3994 /* BorderedTextfield.swift */; };
+		4E4786291AEECEE2007AA9D9 /* SubmitLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4786281AEECEE2007AA9D9 /* SubmitLocationViewController.swift */; };
+		4E4B0F011AD5BAD3005AE3F6 /* OnTheMapUdacityClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4B0F001AD5BAD3005AE3F6 /* OnTheMapUdacityClient.swift */; };
+		4E4B0F031AD5BC40005AE3F6 /* OnTheMapUdacityConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4B0F021AD5BC40005AE3F6 /* OnTheMapUdacityConstants.swift */; };
+		4E4B0F051AD5BC9B005AE3F6 /* OnTheMapParseConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4B0F041AD5BC9B005AE3F6 /* OnTheMapParseConstants.swift */; };
+		4E4B0F071AD5BCBC005AE3F6 /* OnTheMapParseClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4B0F061AD5BCBC005AE3F6 /* OnTheMapParseClient.swift */; };
+		4E4B0F091AD5DFFA005AE3F6 /* OnTheMapParseConvenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4B0F081AD5DFFA005AE3F6 /* OnTheMapParseConvenience.swift */; };
+		4E4B0F0B1AD6A9F2005AE3F6 /* OnTheMapParseDataObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4B0F0A1AD6A9F2005AE3F6 /* OnTheMapParseDataObject.swift */; };
+		4E4B0F181AD6D4A6005AE3F6 /* OnTheMap_29.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E4B0F0E1AD6D4A6005AE3F6 /* OnTheMap_29.png */; };
+		4E4B0F191AD6D4A6005AE3F6 /* OnTheMap_40.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E4B0F0F1AD6D4A6005AE3F6 /* OnTheMap_40.png */; };
+		4E4B0F1A1AD6D4A6005AE3F6 /* OnTheMap_58.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E4B0F101AD6D4A6005AE3F6 /* OnTheMap_58.png */; };
+		4E4B0F1B1AD6D4A6005AE3F6 /* OnTheMap_76.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E4B0F111AD6D4A6005AE3F6 /* OnTheMap_76.png */; };
+		4E4B0F1C1AD6D4A6005AE3F6 /* OnTheMap_80.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E4B0F121AD6D4A6005AE3F6 /* OnTheMap_80.png */; };
+		4E4B0F1D1AD6D4A6005AE3F6 /* OnTheMap_120.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E4B0F131AD6D4A6005AE3F6 /* OnTheMap_120.png */; };
+		4E4B0F1E1AD6D4A6005AE3F6 /* OnTheMap_152.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E4B0F141AD6D4A6005AE3F6 /* OnTheMap_152.png */; };
+		4E4B0F1F1AD6D4A6005AE3F6 /* OnTheMap_180.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E4B0F151AD6D4A6005AE3F6 /* OnTheMap_180.png */; };
+		4E4B0F201AD6D4A6005AE3F6 /* OnTheMap_512.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E4B0F161AD6D4A6005AE3F6 /* OnTheMap_512.png */; };
+		4E4B0F211AD6D4A6005AE3F6 /* OnTheMap_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E4B0F171AD6D4A6005AE3F6 /* OnTheMap_1024.png */; };
+		4E75AB6D1ACE6BDE00946894 /* OnTheMapAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E75AB6C1ACE6BDE00946894 /* OnTheMapAccount.swift */; };
+		4EC010AA1AC0B0E90066C050 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC010A91AC0B0E90066C050 /* AppDelegate.swift */; };
+		4EC010AC1AC0B0E90066C050 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC010AB1AC0B0E90066C050 /* LoginViewController.swift */; };
+		4EC010AF1AC0B0E90066C050 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC010AD1AC0B0E90066C050 /* Main.storyboard */; };
+		4EC010B11AC0B0E90066C050 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EC010B01AC0B0E90066C050 /* Images.xcassets */; };
+		4EC010B41AC0B0E90066C050 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EC010B21AC0B0E90066C050 /* LaunchScreen.xib */; };
+		4EC010C01AC0B0EA0066C050 /* OnTheMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC010BF1AC0B0EA0066C050 /* OnTheMapTests.swift */; };
+		4EC010DB1AC0B1D10066C050 /* list.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4EC010CA1AC0B1D10066C050 /* list.pdf */; };
+		4EC010DC1AC0B1D10066C050 /* map.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4EC010CB1AC0B1D10066C050 /* map.pdf */; };
+		4EC010E71AC0B1D10066C050 /* pin.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4EC010D61AC0B1D10066C050 /* pin.pdf */; };
+		4EC010E81AC0B1D10066C050 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EC010D71AC0B1D10066C050 /* Roboto-Medium.ttf */; };
+		4EC010E91AC0B1D10066C050 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EC010D81AC0B1D10066C050 /* Roboto-Regular.ttf */; };
+		4EC010EA1AC0B1D10066C050 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EC010D91AC0B1D10066C050 /* Roboto-Thin.ttf */; };
+		4EC010EB1AC0B1D10066C050 /* udacity.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4EC010DA1AC0B1D10066C050 /* udacity.pdf */; };
+		4EC010ED1AC0B7D50066C050 /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EC010EC1AC0B7D50066C050 /* LaunchImage.png */; };
+		4EC010EF1AC1F9F50066C050 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC010EE1AC1F9F50066C050 /* MapViewController.swift */; };
+		4EC1CCFB1AC2089F00378893 /* MapTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC1CCFA1AC2089F00378893 /* MapTableViewController.swift */; };
+		4ED078201AF89E0400C29CF4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ED0781F1AF89E0400C29CF4 /* CoreLocation.framework */; };
+		4ED078221AF9F68900C29CF4 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED078211AF9F68900C29CF4 /* Reachability.swift */; };
+		4ED078241AF9FD2300C29CF4 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED078231AF9FD2300C29CF4 /* Alert.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EC010BA1AC0B0EA0066C050 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EC0109C1AC0B0E90066C050 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EC010A31AC0B0E90066C050;
+			remoteInfo = OnTheMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E2383601AC34CA700FB3994 /* InformationPostingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationPostingViewController.swift; sourceTree = "<group>"; };
+		4E2383691AC47F3600FB3994 /* OnTheMapUdacityConvenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnTheMapUdacityConvenience.swift; sourceTree = "<group>"; };
+		4E23836B1AC47F7300FB3994 /* OnTheMapClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnTheMapClient.swift; sourceTree = "<group>"; };
+		4E2383711AC47FCC00FB3994 /* BorderedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderedButton.swift; sourceTree = "<group>"; };
+		4E2383731AC47FDD00FB3994 /* BorderedTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderedTextfield.swift; sourceTree = "<group>"; };
+		4E4786281AEECEE2007AA9D9 /* SubmitLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmitLocationViewController.swift; sourceTree = "<group>"; };
+		4E4B0F001AD5BAD3005AE3F6 /* OnTheMapUdacityClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnTheMapUdacityClient.swift; sourceTree = "<group>"; };
+		4E4B0F021AD5BC40005AE3F6 /* OnTheMapUdacityConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnTheMapUdacityConstants.swift; sourceTree = "<group>"; };
+		4E4B0F041AD5BC9B005AE3F6 /* OnTheMapParseConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnTheMapParseConstants.swift; sourceTree = "<group>"; };
+		4E4B0F061AD5BCBC005AE3F6 /* OnTheMapParseClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnTheMapParseClient.swift; sourceTree = "<group>"; };
+		4E4B0F081AD5DFFA005AE3F6 /* OnTheMapParseConvenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnTheMapParseConvenience.swift; sourceTree = "<group>"; };
+		4E4B0F0A1AD6A9F2005AE3F6 /* OnTheMapParseDataObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnTheMapParseDataObject.swift; sourceTree = "<group>"; };
+		4E4B0F0E1AD6D4A6005AE3F6 /* OnTheMap_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OnTheMap_29.png; path = assets/OnTheMap_29.png; sourceTree = "<group>"; };
+		4E4B0F0F1AD6D4A6005AE3F6 /* OnTheMap_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OnTheMap_40.png; path = assets/OnTheMap_40.png; sourceTree = "<group>"; };
+		4E4B0F101AD6D4A6005AE3F6 /* OnTheMap_58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OnTheMap_58.png; path = assets/OnTheMap_58.png; sourceTree = "<group>"; };
+		4E4B0F111AD6D4A6005AE3F6 /* OnTheMap_76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OnTheMap_76.png; path = assets/OnTheMap_76.png; sourceTree = "<group>"; };
+		4E4B0F121AD6D4A6005AE3F6 /* OnTheMap_80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OnTheMap_80.png; path = assets/OnTheMap_80.png; sourceTree = "<group>"; };
+		4E4B0F131AD6D4A6005AE3F6 /* OnTheMap_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OnTheMap_120.png; path = assets/OnTheMap_120.png; sourceTree = "<group>"; };
+		4E4B0F141AD6D4A6005AE3F6 /* OnTheMap_152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OnTheMap_152.png; path = assets/OnTheMap_152.png; sourceTree = "<group>"; };
+		4E4B0F151AD6D4A6005AE3F6 /* OnTheMap_180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OnTheMap_180.png; path = assets/OnTheMap_180.png; sourceTree = "<group>"; };
+		4E4B0F161AD6D4A6005AE3F6 /* OnTheMap_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OnTheMap_512.png; path = assets/OnTheMap_512.png; sourceTree = "<group>"; };
+		4E4B0F171AD6D4A6005AE3F6 /* OnTheMap_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OnTheMap_1024.png; path = assets/OnTheMap_1024.png; sourceTree = "<group>"; };
+		4E75AB6C1ACE6BDE00946894 /* OnTheMapAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnTheMapAccount.swift; sourceTree = "<group>"; };
+		4EC010A41AC0B0E90066C050 /* OnTheMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnTheMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EC010A81AC0B0E90066C050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EC010A91AC0B0E90066C050 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4EC010AB1AC0B0E90066C050 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4EC010AE1AC0B0E90066C050 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EC010B01AC0B0E90066C050 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4EC010B31AC0B0E90066C050 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4EC010B91AC0B0EA0066C050 /* OnTheMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnTheMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EC010BE1AC0B0EA0066C050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EC010BF1AC0B0EA0066C050 /* OnTheMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTheMapTests.swift; sourceTree = "<group>"; };
+		4EC010CA1AC0B1D10066C050 /* list.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = list.pdf; path = assets/list.pdf; sourceTree = "<group>"; };
+		4EC010CB1AC0B1D10066C050 /* map.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = map.pdf; path = assets/map.pdf; sourceTree = "<group>"; };
+		4EC010D61AC0B1D10066C050 /* pin.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = pin.pdf; path = assets/pin.pdf; sourceTree = "<group>"; };
+		4EC010D71AC0B1D10066C050 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Medium.ttf"; path = "assets/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		4EC010D81AC0B1D10066C050 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "assets/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		4EC010D91AC0B1D10066C050 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Thin.ttf"; path = "assets/Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		4EC010DA1AC0B1D10066C050 /* udacity.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = udacity.pdf; path = assets/udacity.pdf; sourceTree = "<group>"; };
+		4EC010EC1AC0B7D50066C050 /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage.png; sourceTree = "<group>"; };
+		4EC010EE1AC1F9F50066C050 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		4EC1CCFA1AC2089F00378893 /* MapTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapTableViewController.swift; sourceTree = "<group>"; };
+		4ED0781F1AF89E0400C29CF4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4ED078211AF9F68900C29CF4 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		4ED078231AF9FD2300C29CF4 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EC010A11AC0B0E90066C050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ED078201AF89E0400C29CF4 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC010B61AC0B0EA0066C050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E2383621AC34CE300FB3994 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4E75AB6B1ACE6BC800946894 /* Data */,
+				4E2383651AC47EBF00FB3994 /* Clients */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4E2383631AC34CF800FB3994 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4E2383711AC47FCC00FB3994 /* BorderedButton.swift */,
+				4E2383731AC47FDD00FB3994 /* BorderedTextfield.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4E2383641AC34D0700FB3994 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4EC010A91AC0B0E90066C050 /* AppDelegate.swift */,
+				4EC010AB1AC0B0E90066C050 /* LoginViewController.swift */,
+				4ED078211AF9F68900C29CF4 /* Reachability.swift */,
+				4EC010EE1AC1F9F50066C050 /* MapViewController.swift */,
+				4EC1CCFA1AC2089F00378893 /* MapTableViewController.swift */,
+				4E2383601AC34CA700FB3994 /* InformationPostingViewController.swift */,
+				4E4786281AEECEE2007AA9D9 /* SubmitLocationViewController.swift */,
+				4ED078231AF9FD2300C29CF4 /* Alert.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4E2383651AC47EBF00FB3994 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				4E2383661AC47ED100FB3994 /* OnTheMap */,
+				4E4B0EFE1AD5BAAF005AE3F6 /* Udacity */,
+				4E4B0EFF1AD5BAB6005AE3F6 /* Parse */,
+			);
+			name = Clients;
+			sourceTree = "<group>";
+		};
+		4E2383661AC47ED100FB3994 /* OnTheMap */ = {
+			isa = PBXGroup;
+			children = (
+				4E23836B1AC47F7300FB3994 /* OnTheMapClient.swift */,
+			);
+			name = OnTheMap;
+			sourceTree = "<group>";
+		};
+		4E4B0EFE1AD5BAAF005AE3F6 /* Udacity */ = {
+			isa = PBXGroup;
+			children = (
+				4E4B0F021AD5BC40005AE3F6 /* OnTheMapUdacityConstants.swift */,
+				4E4B0F001AD5BAD3005AE3F6 /* OnTheMapUdacityClient.swift */,
+				4E2383691AC47F3600FB3994 /* OnTheMapUdacityConvenience.swift */,
+			);
+			name = Udacity;
+			sourceTree = "<group>";
+		};
+		4E4B0EFF1AD5BAB6005AE3F6 /* Parse */ = {
+			isa = PBXGroup;
+			children = (
+				4E4B0F041AD5BC9B005AE3F6 /* OnTheMapParseConstants.swift */,
+				4E4B0F061AD5BCBC005AE3F6 /* OnTheMapParseClient.swift */,
+				4E4B0F081AD5DFFA005AE3F6 /* OnTheMapParseConvenience.swift */,
+			);
+			name = Parse;
+			sourceTree = "<group>";
+		};
+		4E75AB6B1ACE6BC800946894 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4E75AB6C1ACE6BDE00946894 /* OnTheMapAccount.swift */,
+				4E4B0F0A1AD6A9F2005AE3F6 /* OnTheMapParseDataObject.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		4EC0109B1AC0B0E90066C050 = {
+			isa = PBXGroup;
+			children = (
+				4ED0781F1AF89E0400C29CF4 /* CoreLocation.framework */,
+				4EC010A61AC0B0E90066C050 /* OnTheMap */,
+				4EC010BC1AC0B0EA0066C050 /* OnTheMapTests */,
+				4EC010A51AC0B0E90066C050 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EC010A51AC0B0E90066C050 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EC010A41AC0B0E90066C050 /* OnTheMap.app */,
+				4EC010B91AC0B0EA0066C050 /* OnTheMapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EC010A61AC0B0E90066C050 /* OnTheMap */ = {
+			isa = PBXGroup;
+			children = (
+				4E2383641AC34D0700FB3994 /* Controller */,
+				4E2383631AC34CF800FB3994 /* View */,
+				4E2383621AC34CE300FB3994 /* Model */,
+				4EC010AD1AC0B0E90066C050 /* Main.storyboard */,
+				4EC010B01AC0B0E90066C050 /* Images.xcassets */,
+				4EC010B21AC0B0E90066C050 /* LaunchScreen.xib */,
+				4EC010A71AC0B0E90066C050 /* Supporting Files */,
+			);
+			path = OnTheMap;
+			sourceTree = "<group>";
+		};
+		4EC010A71AC0B0E90066C050 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EC010C91AC0B1C20066C050 /* Assets */,
+				4EC010A81AC0B0E90066C050 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EC010BC1AC0B0EA0066C050 /* OnTheMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EC010BF1AC0B0EA0066C050 /* OnTheMapTests.swift */,
+				4EC010BD1AC0B0EA0066C050 /* Supporting Files */,
+			);
+			path = OnTheMapTests;
+			sourceTree = "<group>";
+		};
+		4EC010BD1AC0B0EA0066C050 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EC010BE1AC0B0EA0066C050 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EC010C91AC0B1C20066C050 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				4E4B0F0E1AD6D4A6005AE3F6 /* OnTheMap_29.png */,
+				4E4B0F0F1AD6D4A6005AE3F6 /* OnTheMap_40.png */,
+				4E4B0F101AD6D4A6005AE3F6 /* OnTheMap_58.png */,
+				4E4B0F111AD6D4A6005AE3F6 /* OnTheMap_76.png */,
+				4E4B0F121AD6D4A6005AE3F6 /* OnTheMap_80.png */,
+				4E4B0F131AD6D4A6005AE3F6 /* OnTheMap_120.png */,
+				4E4B0F141AD6D4A6005AE3F6 /* OnTheMap_152.png */,
+				4E4B0F151AD6D4A6005AE3F6 /* OnTheMap_180.png */,
+				4E4B0F161AD6D4A6005AE3F6 /* OnTheMap_512.png */,
+				4E4B0F171AD6D4A6005AE3F6 /* OnTheMap_1024.png */,
+				4EC010EC1AC0B7D50066C050 /* LaunchImage.png */,
+				4EC010CA1AC0B1D10066C050 /* list.pdf */,
+				4EC010CB1AC0B1D10066C050 /* map.pdf */,
+				4EC010D61AC0B1D10066C050 /* pin.pdf */,
+				4EC010D71AC0B1D10066C050 /* Roboto-Medium.ttf */,
+				4EC010D81AC0B1D10066C050 /* Roboto-Regular.ttf */,
+				4EC010D91AC0B1D10066C050 /* Roboto-Thin.ttf */,
+				4EC010DA1AC0B1D10066C050 /* udacity.pdf */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EC010A31AC0B0E90066C050 /* OnTheMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EC010C31AC0B0EA0066C050 /* Build configuration list for PBXNativeTarget "OnTheMap" */;
+			buildPhases = (
+				4EC010A01AC0B0E90066C050 /* Sources */,
+				4EC010A11AC0B0E90066C050 /* Frameworks */,
+				4EC010A21AC0B0E90066C050 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OnTheMap;
+			productName = OnTheMap;
+			productReference = 4EC010A41AC0B0E90066C050 /* OnTheMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EC010B81AC0B0EA0066C050 /* OnTheMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EC010C61AC0B0EA0066C050 /* Build configuration list for PBXNativeTarget "OnTheMapTests" */;
+			buildPhases = (
+				4EC010B51AC0B0EA0066C050 /* Sources */,
+				4EC010B61AC0B0EA0066C050 /* Frameworks */,
+				4EC010B71AC0B0EA0066C050 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EC010BB1AC0B0EA0066C050 /* PBXTargetDependency */,
+			);
+			name = OnTheMapTests;
+			productName = OnTheMapTests;
+			productReference = 4EC010B91AC0B0EA0066C050 /* OnTheMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EC0109C1AC0B0E90066C050 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "FLO Media";
+				TargetAttributes = {
+					4EC010A31AC0B0E90066C050 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					4EC010B81AC0B0EA0066C050 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 4EC010A31AC0B0E90066C050;
+					};
+				};
+			};
+			buildConfigurationList = 4EC0109F1AC0B0E90066C050 /* Build configuration list for PBXProject "OnTheMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EC0109B1AC0B0E90066C050;
+			productRefGroup = 4EC010A51AC0B0E90066C050 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EC010A31AC0B0E90066C050 /* OnTheMap */,
+				4EC010B81AC0B0EA0066C050 /* OnTheMapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EC010A21AC0B0E90066C050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E4B0F1D1AD6D4A6005AE3F6 /* OnTheMap_120.png in Resources */,
+				4EC010DC1AC0B1D10066C050 /* map.pdf in Resources */,
+				4EC010DB1AC0B1D10066C050 /* list.pdf in Resources */,
+				4E4B0F1A1AD6D4A6005AE3F6 /* OnTheMap_58.png in Resources */,
+				4E4B0F1F1AD6D4A6005AE3F6 /* OnTheMap_180.png in Resources */,
+				4E4B0F191AD6D4A6005AE3F6 /* OnTheMap_40.png in Resources */,
+				4EC010E81AC0B1D10066C050 /* Roboto-Medium.ttf in Resources */,
+				4E4B0F1C1AD6D4A6005AE3F6 /* OnTheMap_80.png in Resources */,
+				4EC010AF1AC0B0E90066C050 /* Main.storyboard in Resources */,
+				4E4B0F181AD6D4A6005AE3F6 /* OnTheMap_29.png in Resources */,
+				4E4B0F201AD6D4A6005AE3F6 /* OnTheMap_512.png in Resources */,
+				4EC010E91AC0B1D10066C050 /* Roboto-Regular.ttf in Resources */,
+				4EC010E71AC0B1D10066C050 /* pin.pdf in Resources */,
+				4EC010B41AC0B0E90066C050 /* LaunchScreen.xib in Resources */,
+				4EC010EB1AC0B1D10066C050 /* udacity.pdf in Resources */,
+				4EC010EA1AC0B1D10066C050 /* Roboto-Thin.ttf in Resources */,
+				4EC010B11AC0B0E90066C050 /* Images.xcassets in Resources */,
+				4E4B0F1B1AD6D4A6005AE3F6 /* OnTheMap_76.png in Resources */,
+				4E4B0F1E1AD6D4A6005AE3F6 /* OnTheMap_152.png in Resources */,
+				4E4B0F211AD6D4A6005AE3F6 /* OnTheMap_1024.png in Resources */,
+				4EC010ED1AC0B7D50066C050 /* LaunchImage.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC010B71AC0B0EA0066C050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EC010A01AC0B0E90066C050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E4B0F051AD5BC9B005AE3F6 /* OnTheMapParseConstants.swift in Sources */,
+				4E23836C1AC47F7300FB3994 /* OnTheMapClient.swift in Sources */,
+				4E75AB6D1ACE6BDE00946894 /* OnTheMapAccount.swift in Sources */,
+				4E2383741AC47FDD00FB3994 /* BorderedTextfield.swift in Sources */,
+				4EC010AC1AC0B0E90066C050 /* LoginViewController.swift in Sources */,
+				4ED078241AF9FD2300C29CF4 /* Alert.swift in Sources */,
+				4E4B0F0B1AD6A9F2005AE3F6 /* OnTheMapParseDataObject.swift in Sources */,
+				4E23836A1AC47F3600FB3994 /* OnTheMapUdacityConvenience.swift in Sources */,
+				4E4786291AEECEE2007AA9D9 /* SubmitLocationViewController.swift in Sources */,
+				4E4B0F011AD5BAD3005AE3F6 /* OnTheMapUdacityClient.swift in Sources */,
+				4EC010EF1AC1F9F50066C050 /* MapViewController.swift in Sources */,
+				4EC010AA1AC0B0E90066C050 /* AppDelegate.swift in Sources */,
+				4E2383721AC47FCC00FB3994 /* BorderedButton.swift in Sources */,
+				4E4B0F071AD5BCBC005AE3F6 /* OnTheMapParseClient.swift in Sources */,
+				4E4B0F031AD5BC40005AE3F6 /* OnTheMapUdacityConstants.swift in Sources */,
+				4ED078221AF9F68900C29CF4 /* Reachability.swift in Sources */,
+				4E4B0F091AD5DFFA005AE3F6 /* OnTheMapParseConvenience.swift in Sources */,
+				4EC1CCFB1AC2089F00378893 /* MapTableViewController.swift in Sources */,
+				4E2383611AC34CA700FB3994 /* InformationPostingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC010B51AC0B0EA0066C050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC010C01AC0B0EA0066C050 /* OnTheMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EC010BB1AC0B0EA0066C050 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EC010A31AC0B0E90066C050 /* OnTheMap */;
+			targetProxy = 4EC010BA1AC0B0EA0066C050 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EC010AD1AC0B0E90066C050 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EC010AE1AC0B0E90066C050 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4EC010B21AC0B0E90066C050 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EC010B31AC0B0E90066C050 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EC010C11AC0B0EA0066C050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4EC010C21AC0B0EA0066C050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EC010C41AC0B0EA0066C050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OnTheMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4EC010C51AC0B0EA0066C050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OnTheMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4EC010C71AC0B0EA0066C050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OnTheMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnTheMap.app/OnTheMap";
+			};
+			name = Debug;
+		};
+		4EC010C81AC0B0EA0066C050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OnTheMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnTheMap.app/OnTheMap";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EC0109F1AC0B0E90066C050 /* Build configuration list for PBXProject "OnTheMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EC010C11AC0B0EA0066C050 /* Debug */,
+				4EC010C21AC0B0EA0066C050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EC010C31AC0B0EA0066C050 /* Build configuration list for PBXNativeTarget "OnTheMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EC010C41AC0B0EA0066C050 /* Debug */,
+				4EC010C51AC0B0EA0066C050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EC010C61AC0B0EA0066C050 /* Build configuration list for PBXNativeTarget "OnTheMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EC010C71AC0B0EA0066C050 /* Debug */,
+				4EC010C81AC0B0EA0066C050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EC0109C1AC0B0E90066C050 /* Project object */;
+}
